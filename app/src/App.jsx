@@ -3,6 +3,7 @@ import { Home } from "./Home";
 import { Update } from "./Update";
 import { Read } from "./Read";
 import { Create } from "./Create";
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <BrowserRouter>
