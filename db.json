@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "sincere@gmail.com",
+    "phone": "124-400-221-445",
+    "website": "http://website.com"
+  },
+  {
+    "id": 2,
+    "name": "John Amsterdam",
+    "username": "John",
+    "email": "johnphil@gmail.com",
+    "phone": "000-000-0001",
+    "website": "http://philjohn.com"
+  },
+  {
+    "id": 3,
+    "name": "Mike mills",
+    "username": "milly",
+    "email": "mikkey12@gmail.com",
+    "phone": "90-12-1223-1241",
+    "website": "http://mickeymouse.com"
+  },
+  {
+    "id": 4,
+    "name": "Precious holy",
+    "username": "precy",
+    "email": "preciousholy@yahoo.com",
+    "phone": "+23490 8203 0312",
+    "website": "http://ppp123321@gmail.com"
+  }
+]
