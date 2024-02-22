@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 export const Home = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -12,8 +13,13 @@ export const Home = () => {
     <div className="d-flex flex-column justify-content-center align-items-center bg-dark vh-100">
       <h1 className="text-light">List of Users</h1>
       <div className="w-75 rounded bg-white border shadow p-4">
+        <div className="d-flex justify-content-end">
+          <Link to="/create" className="btn btn-success">
+            Add +
+          </Link>
+        </div>
         {/* Display data in table */}
-        <table className="table table-stipend">
+        <table className="table table-striped">
           <thead>
             <tr>
               <th>ID</th>
@@ -31,6 +37,7 @@ export const Home = () => {
                 <td>{d.email}</td>
                 <td>{d.phone}</td>
                 <td>
+                  <button className="btn btn-sm btn-info me-2">Read</button>
                   <button className="btn btn-sm btn-primary me-2">Edit</button>
                   <button className="btn btn-sm btn-danger">Delete</button>
                 </td>
